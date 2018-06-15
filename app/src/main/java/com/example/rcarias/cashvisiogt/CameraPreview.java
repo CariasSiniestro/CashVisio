@@ -1,6 +1,7 @@
 package com.example.rcarias.cashvisiogt;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.hardware.Camera;
 import android.util.Log;
 import android.view.SurfaceHolder;
@@ -67,4 +68,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             //Log.d(TAG, "Error starting camera preview: " + e.getMessage());
         }
     }
+
+
 }
